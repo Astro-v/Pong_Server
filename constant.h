@@ -60,8 +60,9 @@
 #define PI 3.14159265
 
 /*---- SERVER ----*/
-#define SERVER_PORT 55000
+#define SERVER_PORT 5500
 // #define SERVER_ADRESS "90.39.145.229" // IP adress of the server
+// #define SERVER_ADRESS sf::IpAddress::getPublicAddress()
 // #define SERVER_ADRESS "25.67.69.65" // IP adress of the server
 #define SERVER_ADRESS sf::IpAddress::getLocalAddress()
 
